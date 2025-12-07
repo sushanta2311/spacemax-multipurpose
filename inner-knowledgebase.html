@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SpaceMax | Knowledgebase</title>
+    <!-- favicon CSS -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <!-- fonts -->
+    <link href="fonts/sfuidisplay.css" rel="stylesheet">
+    <!-- Icon fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="css/plugins.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body class="theme-royal-blue" data-spy="scroll" data-target="#navbar-nav" data-animation="false" data-appearance="light">
+
+    <!-- =========== Start of Loader ============ -->
+    <div class="preloader">
+        <div class="wrapper">
+            <div class="blobs">
+                <div class="blob-center"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+                <div class="blob"></div>
+            </div>
+            <div>
+                <div class="loader-canvas canvas-left"></div>
+                <div class="loader-canvas canvas-right"></div>
+            </div>
+        </div>
+    </div>
+    <!-- =========== End of Loader ============ -->
+
+    <main class="main">
+        <!-- =========== Start of Navigation (main menu) ============ -->
+        <header class="navbar navbar-bg-white navbar-sticky sticky-bg-color--white navbar-expand-lg navbar-light ">
+            <div class="container position-relative">
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbar-brand__regular" src="img/brand-logo-black.png" alt="brand-logo">
+                    <img class="navbar-brand__sticky" src="img/brand-logo-black.png" alt="sticky brand-logo">
+                </a>
+                <!--  End of brand logo -->
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- end of Nav toggler -->
+
+                <div class="navbar-inner">
+                    <!--  Nav close button inside off-canvas/ mobile menu -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- end of Nav Toggoler -->
+                    <nav>
+                        <ul class="navbar-nav" id="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Landing Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html">Home - 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-2.html">Home - 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-3.html">Home - 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-4.html">Home - 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-5.html">Home - 5</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-6.html">Home - 6</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="home-7.html">Home - 7</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="inner-knowledgebase.html">Knowledgebase</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-faq.html">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-login.html">Login</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-signup.html">Signup</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-recover-account.html">Recover Account</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-coming-soon.html">Coming Soon</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-404.html">Error 404</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="inner-maintenance.html">Maintenance</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Blog Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="blog-grid-2-col.html">Blog Grid 2 Column</a>
+                                            </li>
+
+                                            <li>
+                                                <a class="dropdown-item" href="blog-grid-3-col.html">Blog Grid 3 Column</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="blog-grid-2-col-sidebar-left.html">Blog Sidebar Left</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="blog-grid-2-col-sidebar-right.html">Blog Sidebar right</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Blog Details</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item" href="blog-details-full.html">Blog Details Full</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="blog-details-sidebar-right.html">Blog Details Sidebar Right</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="blog-details-sidebar-left.html">Blog Details Sidebar Left</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://docs.tunerpixel.com/spacemax/">Documentation</a>
+                            </li>
+
+                        </ul>
+                        <!-- end of nav menu items -->
+                    </nav>
+                </div>
+                <div class="mr-4 mr-lg-0">
+                    <a href="#" class="btn btn-size--md btn-hover--3d btn-bg--primary"><span class="btn__text">Purchase Now</span></a>
+                </div>
+                <!-- end of nav CTA button -->
+            </div>
+            <!-- end of container -->
+        </header>
+        <!-- =========== End of Navigation (main menu)  ============ -->
+
+        <!-- =========== Start of Search ============ -->
+        <section class="space d-flex align-items-center">
+            <div class="background-holder background--cover">
+                <img src="img/image-1.jpg" alt="image" class="background-image-holder">
+            </div>
+            <!-- end of backgound image -->
+            <div class="background-holder bg-color--primary opacity--80"></div>
+            <!-- end of overlay backgound color-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8 mx-auto text-center pt-7 pt-lg-9">
+                        <h1 class="h2-font color--white mb-4 mb-lg-6">How can we help?</h1>
+                        <div class="form--v7 box-shadow--1 mb-3">
+                            <form action="#" class="form border--around rounded--05 bg-white">
+                                <div class="input-group d-flex">
+                                    <input type="text" class="form-control" placeholder="Type your keyword" required>
+                                    <button class="btn btn-hover--splash btn-bg--primary" type="submit"><span class="btn__text icon icon-zoom-bold"></span></button>
+                                </div>
+                            </form>
+                            <!-- end of form -->
+                        </div>
+                        <!-- end of form wrapper-->
+                        <ul class="m-0 list-unstyled d-flex flex-wrap justify-content-center remove-space--x">
+                            <li class="mr-1 mb-1"><a href="#" class="btn-sm px-1 font-size--15 color--white bg-color--white-opacity--20">Getting started</a></li>
+                            <li class="mr-1 mb-1"><a href="#" class="btn-sm px-1 font-size--15 color--white bg-color--white-opacity--20">Pricing</a></li>
+                            <li class="mr-1 mb-1"><a href="#" class="btn-sm px-1 font-size--15 color--white bg-color--white-opacity--20">Manage Payments</a></li>
+                            <li class="mr-1 mb-1"><a href="#" class="btn-sm px-1 font-size--15 color--white bg-color--white-opacity--20">Account Security</a></li>
+                            <li class="mr-1 mb-1"><a href="#" class="btn-sm px-1 font-size--15 color--white bg-color--white-opacity--20">Mambership</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== End of Search ============ -->
+
+        <!-- =========== Start of featured articles ============ -->
+        <section class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col mb-4 mb-lg-7 text-center">
+                        <h2>Featured Articles</h2>
+                    </div>
+                </div>
+                <!-- enf of section title row -->
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="card box-shadow--3 card-hover--3d border--none mb-3 max-w--320 mx-auto">
+                            <a href="#"><img src="img/news-1.jpg" class="card-img-top" alt="news"></a>
+                            <div class="card-body d-flex flex-column px-2">
+                                <span class="font-size--14 text-color--400 mb-1">13rd July, 2019</span>
+                                <a href="#" class="card-title h6-font font-w--500 text-color--700 mb-0">SpaceMax Alpha is out now for developers.</a>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+                    </div>
+                    <!-- end of single item col -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="card box-shadow--3 card-hover--3d border--none mb-3 max-w--320 mx-auto">
+                            <a href="#"><img src="img/news-2.jpg" class="card-img-top" alt="news"></a>
+                            <div class="card-body d-flex flex-column px-2">
+                                <span class="font-size--14 text-color--400 mb-1">13rd July, 2019</span>
+                                <a href="#" class="card-title h6-font font-w--500 text-color--700 mb-0">Life Advice Looking Through A Window.</a>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+                    </div>
+                    <!-- end of single item col -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="card box-shadow--3 card-hover--3d border--none mb-3 max-w--320 mx-auto">
+                            <a href="#"><img src="img/news-3.jpg" class="card-img-top" alt="news"></a>
+                            <div class="card-body d-flex flex-column px-2">
+                                <span class="font-size--14 text-color--400 mb-1">13rd July, 2019</span>
+                                <a href="#" class="card-title h6-font font-w--500 text-color--700 mb-0">Facts Why Inkjet Printing Is Very Appealing.</a>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+                    </div>
+                    <!-- end of single item col -->
+                    <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                        <div class="card box-shadow--3 card-hover--3d border--none mb-3 max-w--320 mx-auto">
+                            <a href="#"><img src="img/news-4.jpg" class="card-img-top" alt="news"></a>
+                            <div class="card-body d-flex flex-column px-2">
+                                <span class="font-size--14 text-color--400 mb-1">13rd July, 2019</span>
+                                <a href="#" class="card-title h6-font font-w--500 text-color--700 mb-0">5 Reasons To Purchase Desktop Computers.</a>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+                    </div>
+                    <!-- end of single item col -->
+                </div>
+                <!-- end of cards row -->
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <a href="#" class="btn btn-bg--primary--05 btn-hover--3d color--primary"><span class="btn__text">Browse all articles</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =========== End of featured articles ============ -->
+
+        <!-- =========== Start of topic ============ -->
+        <section class="space--top pb-5 pb-lg-10 bg-color--primary-light--1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-plant-vase-2"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                    Getting started
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-security"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                    Privacy center
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-folder-user"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                        My account
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-bill"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                    Payment settings
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-contacts"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                    My account
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+                        <div class="card max-w--350 mx-auto">
+                            <div class="d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <span class="color--primary font-size--60">
+                                    <i class="icon icon-card-update"></i>
+                                </span>
+                                <span class="font-size--20 font-w--600 text-color--700">
+                                    Theme Update
+                                </span>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <a href="#" class="list-group-item text-color--400">File structure</a>
+                                <a href="#" class="list-group-item text-color--400">NPM and Gulp</a>
+                                <a href="#" class="list-group-item text-color--400">Updating the colors</a>
+                            </div>
+                            <div class="card-body py-2">
+                                <a href="#" class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <i class="icon icon-folder-17 color--primary mr-1"></i>
+                                        <span class="text-color--700 font-size--18 font-w--500">37 topics</span>
+                                    </div>
+                                    <i class="icon icon-small-right arrow_right color--primary"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+                    </div>
+                    <!-- end of single card col -->
+                </div>
+            </div>
+
+        </section>
+        <!-- =========== End of topic ============ -->
+
+        <!-- =========== Start of Contact ============ -->
+        <section class="space bg-color--primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 color--white text-center mb-6">
+                        <h2 class="mb-2">Can't find your answer?</h2>
+                        <p class="opacity--70"> Hit us on Telegram, Slack channels or Email us and we'll get back to you as soon as we can.</p>
+                    </div>
+                </div>
+                <!-- end of section title row -->
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <div class="icon-fill--wide text-center d-md-flex justify-content-lg-center flex-wrap">
+                            <a class="t-icon btn-bg--white box-shadow--5 rounded--05 m-1 btn-hover--cta--4" href="#">
+                                <span class="t-icon__brand-icon h4-font text-color--cta--4"><i class="icon icon-telegram"></i></span>
+                                <span class="t-icon__brand-name h5-font font-w--500 text-color--700">telegram</span>
+                            </a>
+                            <a class="t-icon btn-bg--white box-shadow--5 rounded--05 m-1 btn-hover--cta--4" href="#">
+                                <span class="t-icon__brand-icon h4-font text-color--cta--4"><i class="icon icon-newsletter"></i></span>
+                                <span class="t-icon__brand-name h5-font font-w--500 text-color--700">contact@example.com</span>
+                            </a>
+                            <a class="t-icon btn-bg--white box-shadow--5 rounded--05 m-1 btn-hover--cta--4" href="#">
+                                <span class="t-icon__brand-icon h4-font text-color--cta--4"><i class="icon icon-logo-slack"></i></span>
+                                <span class="t-icon__brand-name h5-font font-w--500 text-color--700">slack</span>
+                            </a>
+                        </div>
+                        <!-- end of icon group -->
+                    </div>
+                    <!-- end of col -->
+                </div>
+                <!-- end of row -->
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- =========== End of Contact ============ -->
+
+        <!-- =========== Start of Footer ============ -->
+        <footer class="footer section--light position-relative hidden">
+            <div class="pt-3 pt-lg-10 pb-6 pb-lg-10 border--bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-9 col-lg-4 mb-4 mb-xl-0">
+                            <div class="pr-xl-3">
+                                <span class="mb-3">
+                                        <img src="img/brand-logo-black.png" alt="brand-logo">
+                                    </span>
+                                <p>The main objectives of the project are to meet the needs of cryptocurrency projects and users, and to provide access to investment product.</p>
+                            </div>
+                        </div>
+                        <!-- end of col -->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-2 mb-2 mb-xl-0">
+                            <div class="widget widget-nav">
+                                <span class="widget__title font-size--20 font-w--700 mb-1">Useful Link</span>
+                                <ul>
+                                    <li><a href="#">How it works</a></li>
+                                    <li><a href="#">Token sale details</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Roadmap</a></li>
+                                    <li><a href="#">Documents</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of widget col-->
+                        <div class="col-6 col-md-4 col-lg-4 col-xl-2 offset-xl-1 mb-2 mb-xl-0">
+                            <div class="widget widget-nav">
+                                <span class="widget__title font-size--20 font-w--700 mb-1">Documents</span>
+                                <ul>
+                                    <li><a href="#">Whitepaper</a></li>
+                                    <li><a href="#">Onepager</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Terms of use</a></li>
+                                    <li><a href="#">Agreement</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of widget col-->
+                        <div class="col-8 col-sm-8 col-md-4 col-xl-3">
+                            <span class="widget__title font-size--20 font-w--700 mb-1">Address</span>
+                            <p class="font-size--15 mb-2">SpaceMax PTE. LTD. 167 Jalan Bukit Merah #05-12 Connection One Singapore (150167)</p>
+                            <ul class="icon-group mb-0">
+                                <li><a href="#" class="color--primary"><i class="fab fa-medium-m"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-telegram-plane"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#" class="color--primary"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- end of widget col-->
+                    </div>
+                </div>
+                <!-- end of main footer container-->
+            </div>
+            <!-- end of main footer -->
+            <div class="py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p class="font-size--15">© 2019 <a href="#" class="text-color--400">SpaceMax</a>. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <!-- end of mini footer row -->
+                </div>
+                <!-- end of mini footer container -->
+            </div>
+            <!-- end of mini footer -->
+        </footer>
+        <!-- =========== End of Footer ============ -->
+    </main>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
